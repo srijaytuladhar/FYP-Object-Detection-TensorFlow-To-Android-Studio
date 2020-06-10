@@ -6,13 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerInParent="true">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nepa_detect_png" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/nepadetect"
+        android:fontFamily="@font/acme"
+        android:id="@+id/nepadetect"
+        android:textSize="30dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nepadetect"
+        android:layout_centerHorizontal="true"
+        android:text="version 1.2.0"
+        android:fontFamily="@font/acme"
+        android:id="@+id/version"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/version"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/acme"
+        android:layout_marginTop="80dp"
+        android:text="Heritage at your plam...."
+        android:id="@+id/heritage_at_your_palm"
+        android:textSize="20dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/heritage_at_your_palm"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_button"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/acme"
+        android:text="Sign in using your Gmail account...."
+        android:id="@+id/details"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp" />
+    </RelativeLayout>
 
 </RelativeLayout>

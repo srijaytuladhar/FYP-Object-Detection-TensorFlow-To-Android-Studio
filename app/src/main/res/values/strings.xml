@@ -1,4 +1,34 @@
 <resources>
     <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">FYP NepaDetect</string>
     <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="user_manual"><u>User Manual</u></string>
+
+    <string name="step1_od"><u>Step 1:</u> Select Object Detection Mode</string>
+    <string name="step2_od"><u>Step 2:</u> Grant Camera Permission</string>
+    <string name="step3_od"><u>Step 3:</u> Detect Heritages</string>
+
+    <string name="instructions">The <b><u>User Manual</u></b>
+        consists of instructions for Object Detection Mode and Augmented Reality Mode where,
+        the guidelines are provided accordingly. The user manual states the basics of how the
+        application is to be used and other extra details as well.
+    </string>
+
+    <string name="nepadetect"><span color="#e74c3c">Nepa</span>Detect</string>
+
+    <string name="step1_ar"><u>Step 1:</u> Select Augmented Reality Mode</string>
+    <string name="step2_ar"><u>Step 2:</u> Grant Camera Permission</string>
+    <string name="step3_ar"><u>Step 3:</u> View 3D Model</string>
+
 </resources>

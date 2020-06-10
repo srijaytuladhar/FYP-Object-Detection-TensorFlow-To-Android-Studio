@@ -3,6 +3,7 @@ package org.tensorflow.lite.examples.detection;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DownloadManager;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -21,15 +22,20 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.unity3d.player.UnityPlayerActivity;
 
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class AfterLoginActivity extends AppCompatActivity {
 
     ImageView imageView;
     TextView name, email, id;
-    Button signout, btn_object_detection, btn_AR;
+    Button btn_object_detection, btn_AR;
+    // Button btn_help, btn_user_manual, btn_profile;
 
     GoogleSignInClient mGoogleSignInClient;
 
@@ -50,9 +56,52 @@ public class AfterLoginActivity extends AppCompatActivity {
         name = findViewById(R.id.textName);
         email = findViewById(R.id.textEmail);
         id = findViewById(R.id.textID);
-        signout = findViewById(R.id.button_sign_out);
+
         btn_object_detection = findViewById(R.id.btn_object_detection);
         btn_AR = findViewById(R.id.btn_AR);
+
+        //btn_help = findViewById(R.id.btn_help);
+        //btn_user_manual = findViewById(R.id.btn_user_manual);
+        //btn_profile = findViewById(R.id.btn_profile);
+
+        FloatingActionButton fab_help = findViewById(R.id.btn_help);
+        fab_help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(AfterLoginActivity.this, "Using NepaDetect version 1.2.0", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+        /*btn_help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(AfterLoginActivity.this, "Using NepaDetect version 1.2.0", Toast.LENGTH_SHORT).show();
+            }
+        });*/
+
+        FloatingActionButton fab_user_manual = findViewById(R.id.btn_user_manual);
+        fab_user_manual.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AfterLoginActivity.this, UserManualActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        FloatingActionButton fab_profile = findViewById(R.id.btn_profile);
+        fab_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AfterLoginActivity.this, ProfileActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+
 
 
         btn_object_detection.setOnClickListener(new View.OnClickListener() {
@@ -88,13 +137,17 @@ public class AfterLoginActivity extends AppCompatActivity {
                 if (launchIntent != null) {
                     startActivity(launchIntent);
                 } else {
-                    Toast.makeText(AfterLoginActivity.this, "There is no AR package installed....", Toast.LENGTH_LONG).show();
+                    Toast.makeText(AfterLoginActivity.this, "There is no AR package installed. Downloading necessary package....", Toast.LENGTH_LONG).show();
+                    Uri uri = Uri.parse("https://drive.google.com/file/d/111s73FvdxevE7ntM2CfWMoYW3XvM7yxD/view?usp=sharing"); // missing 'http://' will cause crashed
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
                 }
+
 
             }
         });
 
-        signout.setOnClickListener(new View.OnClickListener() {
+        /*signout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 switch (v.getId()) {
@@ -106,11 +159,11 @@ public class AfterLoginActivity extends AppCompatActivity {
                 }
 
             }
-        });
+        });*/
 
         GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this);
-        if (acct != null) {
-            String personName = acct.getDisplayName();
+        if (acct == null) {
+            /*String personName = acct.getDisplayName();
             String personGivenName = acct.getGivenName();
             String personFamilyName = acct.getFamilyName();
             String personEmail = acct.getEmail();
@@ -126,12 +179,17 @@ public class AfterLoginActivity extends AppCompatActivity {
 
             //Glide.with(this).load("https://i.imgur.com/DvpvklR.png").into(imageView);
 
-            Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);
+            Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);*/
+
+            Intent intent = new Intent(AfterLoginActivity.this, LoginActivity.class);
+            startActivity(intent);
 
         }
     }
 
-    private void signOut() {
+
+
+    /*public void signOut() {
         mGoogleSignInClient.signOut()
                 .addOnCompleteListener(this, new OnCompleteListener<Void>() {
                     @Override
@@ -143,7 +201,7 @@ public class AfterLoginActivity extends AppCompatActivity {
 
                     }
                 });
-    }
+    }*/
 
     private void revokeAccess() {
         mGoogleSignInClient.revokeAccess()
@@ -154,4 +212,5 @@ public class AfterLoginActivity extends AppCompatActivity {
                     }
                 });
     }
+
 }

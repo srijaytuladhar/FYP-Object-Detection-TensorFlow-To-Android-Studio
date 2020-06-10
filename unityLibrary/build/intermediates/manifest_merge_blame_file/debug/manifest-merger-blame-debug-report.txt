@@ -8,71 +8,71 @@
 8
 9    <uses-sdk
 10        android:minSdkVersion="19"
-10-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml
+10-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml
 11        android:targetSdkVersion="28" />
-11-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml
+11-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml
 12
 13    <uses-feature android:glEsVersion="0x00020000" />
-13-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:19:3-52
-13-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:19:17-49
+13-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:19:3-52
+13-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:19:17-49
 14
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:20:3-63
-15-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:20:20-60
+15-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:20:3-63
+15-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:20:20-60
 16
 17    <uses-feature
-17-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:21:3-83
+17-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:21:3-83
 18        android:name="android.hardware.camera"
-18-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:21:17-55
+18-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:21:17-55
 19        android:required="false" />
-19-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:21:56-80
+19-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:21:56-80
 20    <uses-feature
-20-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:22:3-93
+20-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:22:3-93
 21        android:name="android.hardware.camera.autofocus"
-21-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:22:17-65
+21-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:22:17-65
 22        android:required="false" />
-22-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:22:66-90
+22-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:22:66-90
 23    <uses-feature
-23-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:23:3-89
+23-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:23:3-89
 24        android:name="android.hardware.camera.front"
-24-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:23:17-61
+24-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:23:17-61
 25        android:required="false" />
-25-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:23:62-86
+25-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:23:62-86
 26    <uses-feature
-26-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:24:3-88
+26-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:24:3-88
 27        android:name="android.hardware.touchscreen"
-27-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:24:17-60
+27-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:24:17-60
 28        android:required="false" />
-28-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:24:61-85
+28-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:24:61-85
 29    <uses-feature
-29-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:25:3-99
+29-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:25:3-99
 30        android:name="android.hardware.touchscreen.multitouch"
-30-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:25:17-71
+30-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:25:17-71
 31        android:required="false" />
-31-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:25:72-96
+31-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:25:72-96
 32    <uses-feature
-32-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:26:3-108
+32-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:26:3-108
 33        android:name="android.hardware.touchscreen.multitouch.distinct"
-33-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:26:17-80
+33-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:26:17-80
 34        android:required="false" />
-34-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:26:81-105
+34-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:26:81-105
 35
 36    <application>
-36-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:4:3-18:17
+36-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:4:3-18:17
 37        <activity
-37-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
+37-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
 38            android:name="com.unity3d.player.UnityPlayerActivity"
-38-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+38-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 39            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-39-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+39-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:5:182-363
 40            android:hardwareAccelerated="false"
-40-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:5:364-399
+40-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:5:364-399
 41            android:launchMode="singleTask"
-41-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:5:150-181
+41-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:5:150-181
 42            android:screenOrientation="fullSensor"
-42-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+42-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:5:111-149
 43            android:theme="@style/UnityThemeSelector" >
-43-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+43-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:5:69-110
 44
 45            <!--
 46      <intent-filter>
@@ -81,49 +81,49 @@
 49      </intent-filter>
 50            -->
 51            <meta-data
-51-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+51-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:10:7-82
 52                android:name="unityplayer.UnityActivity"
-52-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+52-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:10:18-58
 53                android:value="true" />
-53-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+53-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:10:59-79
 54            <meta-data
-54-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+54-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:11:7-78
 55                android:name="android.notch_support"
-55-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+55-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:11:18-54
 56                android:value="true" />
-56-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+56-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:11:55-75
 57        </activity>
 58
 59        <meta-data
-59-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+59-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:13:5-69
 60            android:name="unity.splash-mode"
-60-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+60-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:13:16-48
 61            android:value="0" />
-61-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+61-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:13:49-66
 62        <meta-data
-62-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+62-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:14:5-74
 63            android:name="unity.splash-enable"
-63-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+63-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:14:16-50
 64            android:value="True" />
-64-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+64-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:14:51-71
 65        <meta-data
-65-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+65-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:15:5-81
 66            android:name="notch.config"
-66-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+66-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:15:16-43
 67            android:value="portrait|landscape" />
-67-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+67-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:15:44-78
 68        <meta-data
-68-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:16:5-101
+68-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:16:5-101
 69            android:name="unity.build-id"
-69-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:16:16-45
+69-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:16:16-45
 70            android:value="1b9a5724-08f8-4fad-b1f4-c4ed46f2ab89" />
-70-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:16:46-98
+70-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:16:46-98
 71        <meta-data
-71-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:17:5-77
+71-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:17:5-77
 72            android:name="com.google.ar.core"
-72-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:17:16-49
+72-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:17:16-49
 73            android:value="optional" />
-73-->C:\Users\sizat\Desktop\FYP\unityLibrary\src\main\AndroidManifest.xml:17:50-74
+73-->C:\Users\sizat\Desktop\CourseWork\FYP\App\FYP-Object-Detection\unityLibrary\src\main\AndroidManifest.xml:17:50-74
 74    </application>
 75
 76</manifest>

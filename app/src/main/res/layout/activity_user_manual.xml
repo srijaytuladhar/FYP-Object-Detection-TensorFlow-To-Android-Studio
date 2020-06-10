@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".UserManualActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:textSize="50dp"
+            android:textColor="#2d3436"
+            android:fontFamily="@font/acme"
+            android:layout_gravity="center"
+            android:text="@string/user_manual"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:textSize="15dp"
+          android:layout_gravity="center"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:paddingLeft="20sp"
+          android:paddingRight="20sp"
+          android:text="@string/instructions"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:paddingTop="50dp"
+          android:textSize="30dp"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="1. Object Detection Mode"/>
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:layout_gravity="center"
+          android:textSize="20dp"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="@string/step1_od"/>
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/od_mode" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:textSize="20dp"
+          android:layout_gravity="center"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="@string/step2_od"/>
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/cp_1" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:layout_gravity="center"
+          android:textSize="20dp"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="@string/step3_od"/>
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/um_1" />
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/um_2" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:textSize="15dp"
+          android:layout_gravity="center"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:paddingLeft="20sp"
+          android:paddingRight="20sp"
+          android:text="The app was initially developed for outdoor use, but due to the current pandemic, it might be difficult to visit heritages. However, the app can still be tested on digital or physical images of heritages or monuments here in Nepal."/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:paddingTop="70dp"
+          android:textSize="30dp"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="2. Augmented Reality Mode"/>
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:layout_gravity="center"
+          android:textSize="20dp"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="@string/step1_ar"/>
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/ar_mode" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:textSize="20dp"
+          android:layout_gravity="center"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="@string/step2_ar"/>
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/cp_2" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:layout_gravity="center"
+          android:textSize="20dp"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:text="@string/step3_ar"/>
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/um_1_1" />
+      <ImageView
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="400dp"
+          android:src="@drawable/um_2_2" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="50dp"
+          android:textSize="15dp"
+          android:layout_gravity="center"
+          android:textColor="#2d3436"
+          android:fontFamily="@font/acme"
+          android:paddingLeft="20sp"
+          android:paddingRight="20sp"
+          android:paddingBottom="70sp"
+          android:text="The 3D model of heritages can be detected using Rs. 50 and Rs. 100 Nepali currency."/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

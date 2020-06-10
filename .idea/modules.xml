@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FYP.iml" filepath="$PROJECT_DIR$/FYP.iml" group="FYP" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="FYP/app" />
-      <module fileurl="file://$PROJECT_DIR$/tensorflow-lite/tensorflow-lite.iml" filepath="$PROJECT_DIR$/tensorflow-lite/tensorflow-lite.iml" group="FYP/tensorflow-lite" />
-      <module fileurl="file://$PROJECT_DIR$/unityLibrary/unityLibrary.iml" filepath="$PROJECT_DIR$/unityLibrary/unityLibrary.iml" group="FYP/unityLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FYP-Object-Detection.iml" filepath="$PROJECT_DIR$/.idea/modules/FYP-Object-Detection.iml" group="FYP-Object-Detection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="FYP-Object-Detection/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tensorflow-lite/tensorflow-lite.iml" filepath="$PROJECT_DIR$/.idea/modules/tensorflow-lite/tensorflow-lite.iml" group="FYP-Object-Detection/tensorflow-lite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/unityLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/unityLibrary.iml" group="FYP-Object-Detection/unityLibrary" />
     </modules>
   </component>
 </project>

@@ -21,6 +21,8 @@ public class LoginActivity extends AppCompatActivity {
     SignInButton signInButton;
     GoogleSignInClient mGoogleSignInClient;
 
+    private long backPressedTime;
+
     int RC_SIGN_IN = 0;
 
     @Override
@@ -90,6 +92,20 @@ public class LoginActivity extends AppCompatActivity {
             Log.w("Error", "signInResult:failed code=" + e.getStatusCode());
 
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        if (backPressedTime + 2000 > System.currentTimeMillis()){
+            super.onBackPressed();
+            finish();
+            System.exit(0);
+        }
+        else {
+            Toast.makeText(this, "Press back again to exit NepaDetect", Toast.LENGTH_SHORT).show();
+        }
+        backPressedTime = System.currentTimeMillis();
     }
 
     @Override
